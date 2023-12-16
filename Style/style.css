@@ -1,0 +1,516 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #1d1a39;
+    color: white;
+    overflow-x: hidden;
+}
+
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+.header{
+    height: 90vh;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    background-color:#1d1a39;
+}
+
+.navbar .certificates{
+    width: 75px;
+    height: 75px;
+    display: inline;
+    margin: 5px 20px 0px 5px;
+}
+
+
+.nav-menu .nav-item{
+    display: inline;
+    margin: 10px;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.nav-menu .nav-item-active{
+    display: inline;
+    margin: 10px;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.nav-menu .nav-item-active a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border: 1px solid #f39f5a;
+    border-radius: 25px;
+    background-color: #f39f5a;
+}
+
+
+.nav-menu .nav-item a{
+    text-decoration: none;
+    color: #f39f5a;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: 0.3s ease;
+    border: 1px solid #f39f5a;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.nav-menu .nav-item a:hover {
+    background-color: #f39f5a;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.hero-image{
+    background-image: url('../Images/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image .hero-text{
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.349);
+    padding: 15px;
+    color: black;
+}
+
+.paragraph{
+    text-align: center;
+    justify-content: center;
+    margin-top:130px;
+}
+
+.paragraph h3{
+    color: rgb(253, 117, 117);
+}
+
+.paragraph p{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.paragraph p a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.naslov{
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.naslov h1{
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px;
+    border-top: 1px solid white;
+}
+
+.footer .icons i{
+    font-size: 30px;
+    margin: 15px;
+}
+
+.footer .icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.emotion-code{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    height: 200px;
+}
+
+.card-holder{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-holder .card{
+    width: 400px;
+    margin: 0px 20px;
+    height: 575px;
+    box-shadow: 0px 5px 15px 0px rgb(252, 252, 252);
+    border-radius: 25px;
+    text-align: center;
+    background-color: #e8bcb9;
+    border: 5px solid black;
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    color: black;
+}
+
+.card h1{
+    text-align: center;
+    color: black;
+    margin: 10px;
+}
+
+.card-holder .card .price{
+    text-align: center;
+    color: black;
+}
+
+.card-holder .card .price p{
+    font-size: 40px;
+    text-decoration: underline  red;
+}
+
+.yingyang {
+    animation: yingyang 4s linear infinite;
+  }
+  
+  @keyframes yingyang {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.contact{
+    width: 1250px;
+    height: 450px;
+    margin: 150px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+    border: 5px solid #451952;
+    border-radius: 50px;
+}
+
+.input-field{
+    text-align: center;
+}
+
+.input-field input{
+    width: 1000px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: #303030;
+    text-align: center;
+    color: white;
+}
+
+.input-field textarea{
+    background-color: #303030;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    color: white;
+    resize: none;
+    text-align: center;
+}
+
+.button{
+    margin: 10px auto;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: white;
+    border: 2px solid white;
+    background-color: #303030;
+    font-size: 17px;
+    width: 300px;
+}
+
+.button:hover{
+    color: black;
+    transition: 0.5s ease;
+    background-color: white;
+}
+
+
+@media screen and (min-width:320px) and (max-width:425px){
+
+    .header{
+        height: 50vh;
+    }
+
+    .navbar{
+        display: block;
+        padding: 0px;
+    }
+    
+    .navbar .certificates{
+        height: 50px;
+        width: 50px;
+        margin: 5px 13px 0px 13px;
+    }
+
+    .nav-menu{
+        display: block;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu .nav-item{
+        font-size: 10px;
+        margin: 1px;
+    }
+
+    .nav-menu .nav-item-active{
+        font-size: 10px;
+        margin: 5px;
+    }
+
+    .nav-menu .nav-item a{
+        padding: 5px;
+    }
+
+    .nav-menu .nav-item-active a{
+        padding: 5px;
+    }
+
+    .hero-image{
+        height: 50vh;
+    }
+
+    .hero-image .hero-text{
+        font-size: 30%;
+    }
+
+    .emotion-code img{
+        width: 300px;
+    }
+
+    .card-holder{
+        display: block;
+        height: auto;
+        margin-top: 120px;
+        padding: 0px 5px;
+    }
+
+    .card-holder .card{
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .card-holder .card h1{
+        font-size: 15px;
+    }
+
+
+    .card-holder .card img{
+        width: 200px;
+        height: auto;
+    }
+
+    .contact{
+        width: 300px;
+        height: 470px;
+    
+        display: block;
+        align-items: center;
+        justify-content: center;
+    
+        background-color: #303030;
+        border: 5px solid #451952;
+        border-radius: 50px;
+    }
+    
+    .input-field{
+        text-align: center;
+    }
+    
+    .input-field input{
+        width: 200px;
+        height: 30px;
+        border-radius: 20px;
+        border: 2px solid white;
+        background-color: #303030;
+        text-align: center;
+        color: white;
+    }
+    
+    .input-field textarea{
+        background-color: #303030;
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 200px;
+        height: 130px;
+        padding: 10px;
+        color: white;
+        resize: none;
+        text-align: center;
+    }
+   
+    .button{
+        width: 150px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    .header{
+        height: 55vh;
+    }
+
+    .navbar{
+        display: block;
+        padding: 0px;
+    }
+    
+    .navbar .certificates{
+        height: 75px;
+        width: 75px;
+        margin: 5px 55px;
+    }
+
+    .nav-menu{
+        display: block;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu .nav-item{
+        font-size: 25px;
+        margin: 5px;
+    }
+
+    .nav-menu .nav-item-active{
+        font-size: 25px;
+        margin: 5px;
+    }
+
+    .nav-menu .nav-item a{
+        padding: 10px;
+    }
+    .nav-menu .nav-item-active a{
+        padding: 10px;
+    }
+
+    .hero-image{
+        height: 50vh;
+    }
+
+    .hero-image .hero-text{
+        font-size: 65%;
+    }
+
+    .emotion-code img{
+        width: 400px;
+    }
+
+    .card-holder{
+        display: block;
+        height: auto;
+        margin-top: 120px;
+        padding: 0px 5px;
+    }
+
+    .card-holder .card{
+        display: block;
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .card-holder .card h1{
+        font-size: 25px;
+    }
+
+
+    .card-holder .card img{
+        width: 200px;
+        height: auto;
+    }
+
+    .contact{
+        width: 600px;
+        height: 500px;
+    
+        display: block;
+        align-items: center;
+        justify-content: center;
+    
+        background-color: #303030;
+        border: 5px solid #451952;
+        border-radius: 50px;
+    }
+    
+    .input-field{
+        text-align: center;
+    }
+    
+    .input-field input{
+        width: 400px;
+        height: 40px;
+        border-radius: 20px;
+        border: 2px solid white;
+        background-color: #303030;
+        text-align: center;
+        color: white;
+    }
+    
+    .input-field textarea{
+        background-color: #303030;
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 380px;
+        height: 130px;
+        padding: 10px;
+        color: white;
+        resize: none;
+        text-align: center;
+    }
+    
+    .submit{
+        display: flex;
+        margin: 15px auto;
+        height: 50px;
+        width: 200px;
+        text-align: center;
+    }
+}
